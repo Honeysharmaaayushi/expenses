@@ -1,0 +1,23 @@
+{
+  "name": "My Expense Manager",
+  "short_name": "Expenses",
+  "description": "Personal & business expense tracker — offline and private.",
+  "id": "./",
+  "start_url": "./index.html#home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#15803d",
+  "lang": "en-IN",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Add Expense", "short_name": "Add", "url": "./index.html#add", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Today's Report", "short_name": "Today", "url": "./index.html#reports/daily", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
